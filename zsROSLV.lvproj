@@ -19,11 +19,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="advertise.vi" Type="VI" URL="../advertise.vi"/>
-		<Item Name="json parse.vi" Type="VI" URL="../json parse.vi"/>
-		<Item Name="msg_builder.vi" Type="VI" URL="../msg_builder.vi"/>
-		<Item Name="test-listen.vi" Type="VI" URL="../test-listen.vi"/>
-		<Item Name="test-publish.vi" Type="VI" URL="../test-publish.vi"/>
+		<Item Name="clients" Type="Folder" URL="../clients">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="examples" Type="Folder" URL="../examples">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="msg_build" Type="Folder" URL="../msg_build">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="msg_parse" Type="Folder" URL="../msg_parse">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="reference" Type="Folder" URL="../reference">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="依赖关系" Type="Dependencies"/>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
